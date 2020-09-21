@@ -1,0 +1,120 @@
+.orderDetail {
+  height: 100%;
+  background-color: #f3f4f5;
+  display: flex;
+  flex-direction: column;
+
+  .top {
+    // height: 368px;
+    background: #fff;
+    margin-bottom: 20px;
+  }
+
+  .main {
+    flex: 1;
+    overflow: auto;
+
+    // background: #fff;
+    .lease {
+      margin-top: 20px;
+      background: #fff;
+      padding: 30px;
+      font-size: 14Px;
+      display: flex;
+      justify-content: space-between;
+
+      .lease_right {
+        color: #666;
+
+        .vgn {
+          vertical-align: initial;
+        }
+      }
+    }
+
+    .moer {
+      padding: 0 30px;
+
+      .home__loading {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+
+        &-txt {
+          color: #666;
+          font-size: 24px;
+        }
+      }
+
+      .item__wrap {
+        padding-bottom: 100px;
+      }
+    }
+
+    .at-divider__content {
+      background: #f3f4f5;
+    }
+
+    .leaseEnd {
+      margin-top: 20px;
+      background: #fff;
+      box-sizing: border-box;
+      padding: 0 30px 30px;
+      font-size: 12PX;
+    }
+  }
+
+  .footer {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    padding: 20px 30px;
+    height: 100px;
+    margin-top: 20px;
+    background: #fff;
+    font-size: 14Px;
+    justify-content: flex-end;
+
+    .at-button {
+      margin: 0 15px;
+    }
+
+    .at_btn {
+      position: relative;
+      padding: 10px;
+      border: 1PX solid #c5d9e8;
+      color: #333;
+      display: inline-block;
+      padding: 0 3px;
+      width: 80Px;
+      height: 60px;
+      font-size: 16Px;
+      line-height: 60px;
+      justify-content: center;
+      // margin: 0 auto;
+      text-align: center;
+      border-radius: 5px;
+      box-sizing: border-box;
+      overflow: hidden;
+
+      .at_btn_text {
+        position: absolute;
+        top: -7Px;
+        left: 7pX;
+      }
+    }
+
+    .pos {
+      opacity: 0;
+      position: absolute;
+      z-index: 99;
+    }
+  }
+
+  .at-modal__content {
+    min-height: inherit;
+    text-align: center;
+  }
+}

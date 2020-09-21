@@ -1,0 +1,61 @@
+.zu-agreement{
+  padding: 30px;
+  font-size: 14Px;
+  color: #333;
+  .h1{
+    font-weight: bolder;
+    font-size: 16Px;
+    text-align: center;
+    color: #333;
+  }
+  .h2{
+    text-indent: 12Px;
+    font-size: 15Px;
+    color: #333;
+  }
+  .agreement-container{
+    color: #666;
+  }
+  .div{
+    text-indent: 12Px;
+  }
+}
+
+.agreement{
+  padding: 30px;
+  font-size: 14Px;
+  .title{
+    font-size: 20Px;
+    text-align: center;
+  }
+  .paragraph{
+    text-indent: 12Px;
+  }
+  .body{
+    font-size: 12Px;
+    text-align: justify;
+    color: #666;
+
+    .text_blod {
+      font-weight: bold;
+    }
+  
+    .text_red {
+      color: red;
+    }
+
+    .text_w600 {
+      font-weight: 600;
+    }
+
+    .space {
+      padding: 20px 0;
+    }
+
+    .text_underline {
+      text-decoration: underline;
+    }
+
+  }
+
+}

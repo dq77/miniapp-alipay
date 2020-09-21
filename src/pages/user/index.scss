@@ -1,0 +1,110 @@
+@import "../../styles/mixin";
+
+.user-page {
+  @include wh(100%, 100%);
+
+  .user-page-info {
+    height: 360px;
+    background: url(../../images/user/user-bg.png);
+    background-size: 100% 100%;
+  }
+
+  .user-page-head {
+    padding: 4% 22px 3.3% 22px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mine-info {
+    .at-col-2 {
+      margin: 3.3% 3.3% 0 4.3%;
+
+      .user-photo {
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        border-radius: 50%;
+        font-size: 64px;
+        font-weight: bold
+      }
+
+      .at-avatar {
+        line-height: 1.8;
+        background: #00A4FF;
+
+        .taro-text {
+          font-size: 64px;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .at-col-6 {
+      margin: 4.3% 0 0;
+
+      .user-login {
+        display: block;
+        margin-bottom: 15px;
+        font-family: PingFangSC-Semibold;
+        font-size: 36px;
+        color: #FFFFFF;
+        letter-spacing: -0.43px;
+      }
+
+      .user-login-explain {
+        display: block;
+        color: #fff;
+        font-size: 24px;
+      }
+    }
+
+    .at-col__offset-2 {
+      .right-icon {
+        margin: 60px 0 0;
+        width: 48px;
+        height: 48px;
+      }
+    }
+  }
+
+  .user-options {
+    margin: 0 4.3% 0 10px;
+    position: relative;
+    top: -3%;
+
+    .contact_btn {
+      position: absolute;
+      bottom: -33%;
+      right: -4%;
+    }
+
+    // 列表右边距为0
+    .at-list__item {
+      padding-right: 0;
+    }
+
+    // 列表字体样式
+    .at-list__item .item-content__info-title {
+      font-size: 28px;
+      color: #333;
+    }
+
+    // 列表右箭头 大小
+    .at-list__item .item-extra__icon-arrow {
+      font-size: 32px;
+    }
+
+    // 列表里图标 定位距离右边距为0
+    .at-list__item .item-extra__icon {
+      right: 0;
+    }
+
+    .my-money {
+      .item-extra__info {
+        color: #333333;
+        font-size: 14Px;
+      }
+    }
+  }
+
+}

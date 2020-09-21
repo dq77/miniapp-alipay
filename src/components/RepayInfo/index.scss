@@ -1,0 +1,29 @@
+.repayModal{
+  text-align: center;
+  .infoTitle{
+    font-size: 0.34rem;
+    margin-bottom: 0.34rem;
+  }
+  .infoItem{
+    color: #666;
+    text-align: left;
+    display: flex;
+    margin-bottom: 0.2rem;
+    .itemNumber{
+      width: 6%;
+    }
+    .itemCont{
+      width: 94%;
+    }
+  }
+  .repayInfoBtn{
+    background-color: #00A4FF;
+    color: #FFF;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 40px;
+    width: 56%;
+    margin: 0.6rem auto 0.1rem;
+    font-size: 0.30rem;
+  }
+}

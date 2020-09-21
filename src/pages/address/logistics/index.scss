@@ -1,0 +1,81 @@
+.logistics {
+  background: #fff;
+  height: 100%;
+  background-color: #f3f4f5;
+  display: flex;
+  flex-direction: column;
+  font-size: 14Px;
+
+  .logistics_info {
+    height: 140px;
+    box-sizing: border-box;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 30px;
+
+    .logistics_left {
+      display: flex;
+    }
+
+    .imgwrap {
+      width: 96px;
+      height: 96px;
+      margin-right: 12px;
+    }
+
+    .logistics_compay {
+      color: #666;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .expcode {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .copy {
+      border: 1px solid #666;
+      color: #666666;
+      width: 132px;
+      height: 40px;
+      text-align: center;
+      margin-top: 60px;
+    }
+  }
+
+  .logistics_time {
+    flex: 1;
+    margin-top: 20px;
+    overflow: auto;
+    background: #fff;
+    padding: 30px 70px;
+
+    .at-timeline-item:nth-of-type(1) {
+      .at-timeline-item__dot {
+        width: 32Px;
+        height: 32Px;
+        background: none;
+        left: -22px;
+        top: -14px;
+      }
+
+      .at-timeline-item__dot::after {
+        background: url(../../../images/address//checked.png) no-repeat center;
+        background-size: contain;
+        border: none;
+        width: 32Px;
+        height: 32Px;
+      }
+    }
+
+    .at-timeline-item__content {
+      margin-left: 60px;
+    }
+  }
+}

@@ -1,0 +1,111 @@
+// @import '../../../styles/mixin.scss';
+
+.doubleEleven {
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 0;
+
+  .wrap {
+    position: relative;
+  }
+
+  .goodsWrap {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .goods_card {
+      width: 350px;
+      height: 570px;
+      margin-bottom: 10px;
+      // background: red;
+    }
+  }
+
+  .specialprice_one {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    bottom: 5%;
+    // background: red;
+  }
+
+  .specialprice_two {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    bottom: 5%;
+    left: 34%;
+    // background: red;
+  }
+
+  .specialprice_three {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    bottom: 5%;
+    left: 68%;
+    // background: red;
+  }
+
+  .specialprice_four {
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    bottom: 19%;
+    // background: red;
+
+  }
+
+  .specialprice_five {
+    position: absolute;
+    width: 220px;
+    height: 300px;
+    bottom: 19%;
+    left: 34%;
+    // background: red;
+
+  }
+
+  .specialprice_six {
+    position: absolute;
+    width: 240px;
+    height: 300px;
+    bottom: 19%;
+    left: 68%;
+    // background: red;
+
+  }
+
+  .couponsRecive {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    bottom: 15.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background: red;
+    right: 16.3%;
+    border-radius: 50%;
+    font-size: 12Px;
+    color: white;
+  }
+
+  .taroText {
+    display: inline-block;
+    width: 60px;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .toHome {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    // background: red;
+  }
+}

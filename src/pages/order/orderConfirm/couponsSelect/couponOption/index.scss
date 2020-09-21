@@ -1,0 +1,111 @@
+.couponsInfo {
+  .common-coupon {
+    width: 343*2px;
+    min-height: 180px;
+    margin: 0 auto 4%;
+    // background: #ccecff;
+    box-shadow: #DDD 0 0 20px;
+    border-radius: 5px;
+
+    
+    .at-col-9 {
+      box-sizing: border-box;
+      .discount-info {
+        width: 100%;
+        height: 100%;
+        font-family: PingFangSC-Medium;
+        color: #00A4FF;
+        letter-spacing: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        // padding-top: 20px;
+        .discount-price {
+          margin-left: 20px;
+          .money {
+            line-height: 36px;
+            font-size: 60px;
+          }
+        }
+        .discount-time {
+          white-space: nowrap;
+          margin: 15px 0px 34px 10px;
+          line-height: 24px;
+          font-size: 22px;
+          color: #999999;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .discount-type {
+          line-height: 34px;
+          display: block;
+          margin: 10px 0;
+          font-size: 34px;
+          color: #00A4FF;
+        }
+        .discount-valid {
+          font-size: 20px;
+          color: #999999;
+          margin: 10px 0;
+        }
+      }
+      
+    }
+    .symbol-money {
+      font-size: 40px;
+    }
+    .at-col-3 {
+      height: 1.8rem;
+      background-color: #00A4FF;
+
+      .at-button--small {
+        width: 100%;
+        border-radius: 2px;
+        height: 1.8rem;
+        font-family: PingFangSC-Regular;
+        font-size: 14Px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 1.8rem;
+      }
+    }
+
+    .taro-img {
+      border-radius: 50%;
+      width: 140px;
+      height: 140px;
+      float: right;
+      margin-right: 15px;
+    }
+    .use-coupon{
+      height: 100%;
+      background-color: #85D3FF;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .use-coupon.repay {
+      background-color: #F29EFF;
+    }
+    .checkImg{
+      width: 24Px;
+      height: 24Px;
+      margin: 0 auto;
+    }
+  }
+
+  // 已使用
+  .used {
+
+    .at-col-3 {
+      background-color: #E5E5E5;
+      .at-button--small{
+        background-color: #E5E5E5;
+        border: none;
+      }
+    }
+  }
+
+}

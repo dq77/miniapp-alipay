@@ -1,0 +1,72 @@
+.payResult{
+  min-height: 100%;
+  // background: #F6F7F8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .bgcf{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgwrap{
+    width: 284px;
+    height: 298px;
+    margin-top: 90px;
+  }
+  .success_text{
+    font-size: 24Px;
+  }
+  .success_price{
+    font-size: 14Px;
+    margin-bottom: 20px;
+  }
+  .success_price_money{
+    color: #00A4FF 
+  }
+  .w100{
+    margin-top: 40px;
+    padding: 20px 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .leaseEnd{
+      background-color: #fff;
+      width: 624px;
+      font-size: 14Px;
+    }
+    .payType{
+      font-size: 14Px;
+      color: #999;
+      width: 624px;
+      .title{
+        color: #333;
+        border-bottom: 1px solid #EBEBEB;
+        padding-bottom: 10px;
+      }
+      .item{
+        padding-top: 18px;
+      }
+    }
+  }
+  .success_btn{
+    width: 100%;
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+  }
+  .at-button{
+    width: 240px;
+  }
+  .success_ok{
+    margin-top: 188px;
+    width:624px;
+    .at-button{
+      width: 100%;
+    }
+  }
+}

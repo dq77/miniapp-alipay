@@ -1,0 +1,41 @@
+.item-price {
+  padding: 0 20px 20px;
+
+  &-value {
+    color: #FF1E32;
+    font-size: 24Px;
+
+    .price-symbol {
+      font-size: 12Px;
+      padding-right: 4Px;
+    }
+
+    .price-unit {
+      font-size: 12Px;
+      color: #999;
+    }
+
+    .official-price {
+      font-size: 10Px;
+      padding: 2Px;
+      margin-left: 20Px;
+      background-color: #eee;
+      color: #999;
+    }
+  }
+
+  &-labels {
+    margin-bottom: 24px;
+
+    .label-item {
+      display: inline-block;
+      color: #fff;
+      font-size: 12Px;
+      border: 1Px solid #00A4FF;
+      color: #00A4FF;
+      padding: 1Px 4Px;
+      border-radius: 4Px;
+      margin: 0 8px 0 0;
+    }
+  }
+}

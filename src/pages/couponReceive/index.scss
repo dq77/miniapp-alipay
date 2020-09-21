@@ -1,0 +1,45 @@
+.couponReceive {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 12Px;
+  overflow: auto;
+  align-items: center;
+
+  .coupons {
+    flex: 1;
+    width: 94%;
+  }
+
+  .moer {
+    flex: 1;
+    padding: 30px;
+  }
+
+  .btn {
+    height: 60px;
+    width: 200px;
+    font-size: 12Px;
+    margin-bottom: 30Px;
+    margin-left: 20Px;
+  }
+
+  .vgn {
+    vertical-align: baseline;
+  }
+
+  .no_coupon_wrap {
+    // height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .noCoupons {
+      height: 70Px;
+      width: 70Px;
+    }
+  }
+}

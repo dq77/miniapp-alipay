@@ -1,0 +1,77 @@
+.coupons {
+  font-size: 14PX;
+  height: 94px;
+  background: #fff;
+  display: flex;
+  // padding: 0 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+  .vgn {
+    color: #ccc;
+  }
+
+  .coupons_status {
+    color: #666;
+  }
+  .couponInfo{
+    width: 28px;
+    height: 28px;
+    margin: 2px 14px 0 0;
+  }
+  .couponTitle{
+    padding-bottom: 2%;
+  }
+  .repay{
+    .rightIcon{
+      text-align: right;
+    }
+    .couponInfo{
+      width: 28px;
+      height: 28px;
+      margin: 2px 14px 0 0;
+    }
+  }
+  .repayModal{
+    text-align: center;
+    .infoTitle{
+      font-size: 0.34rem;
+      margin-bottom: 0.34rem;
+    }
+    .infoItem{
+      color: #666;
+      text-align: left;
+      display: flex;
+      margin-bottom: 0.2rem;
+      .itemNumber{
+        width: 6%;
+      }
+      .itemCont{
+        width: 94%;
+      }
+    }
+    .repayInfoBtn{
+      background-color: #00A4FF;
+      color: #FFF;
+      height: 70px;
+      line-height: 70px;
+      border-radius: 40px;
+      width: 56%;
+      margin: 0.6rem auto 0.1rem;
+      font-size: 0.30rem;
+    }
+  }
+  .use-discount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14Px;
+    padding: 0 20px;
+    height: 80px;
+    .check-img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}

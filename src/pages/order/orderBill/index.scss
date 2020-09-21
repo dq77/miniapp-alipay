@@ -1,0 +1,167 @@
+.orderBill{
+  height: 100%;
+  background-color: #f3f4f5;
+  display: flex;
+  flex-direction: column;
+  font-size: 12Px;
+  .bill_price{
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 0 30px;
+  }
+  .bline{
+    border-bottom: 1px solid #EBEBEB;
+  }
+  .bline:last-child{
+    border-bottom: 1px solid #fff;
+  }
+  .cell{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+    line-height: 36px;
+    .cell_right,.cell_left{
+      display: flex;
+      flex-direction: column;
+    }
+    .cell_right{
+      text-align: right;
+    }
+    .blue{
+      color: #00A4FF 
+    }
+    .textcolor{
+      color: #999;
+    }
+    .redColor{
+      color: #C90000;
+    }
+    .pay_back_self{
+      background-color: #00A4FF;
+      color: #FFF;
+      margin-top: 16px;
+      padding: 6px 14px;
+      border-radius: 50px;
+    }
+  }
+  .bill_time{
+    background: #fff;
+    // flex: 1;
+    overflow: auto;
+    padding: 0 30px;
+  }
+  .bottom-model{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    height: 102px;
+    padding: 0 32px;
+    display: flex;
+    .price-info{
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 28px;
+      line-height: 44px;
+      .balance{
+        font-size: 24px;
+        color: #00A4FF;
+        line-height: 36px;
+      }
+    }
+    .price-btn{
+      flex: 1 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .pay-btn{
+        background-color: #00A4FF;
+        width: 180px;
+        color: #FFF;
+        font-size: 32px;
+        line-height: 36px;
+        text-align: center;
+        padding: 12px 0;
+        border-radius: 28px;
+      }
+    }
+  }
+  .repayTipModal{
+    .infoTitle{
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 20px;
+      .warnImg{
+        display: inline-block;
+        width: 40px;
+        height: 38px;
+        vertical-align: text-top;
+        margin-right: 10px;
+      }
+    }
+    .infoItem{
+      font-size: 26px;
+      text-indent: 52px;
+      color: #666;
+      line-height: 44px;
+      .phoneNum{
+        color: #00A4FF;
+      }
+    }
+    .confirm-btn{
+      width: 240px;
+      height: 70px;
+      line-height: 70px;
+      font-size: 32px;
+      text-align: center;
+      background-color: #00A4FF;
+      color: #FFF;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  }
+  .confirmPayModal{
+    .infoTitle{
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .closeTip{
+      position: absolute;
+      top: 30px;
+      right: 20px;
+      color: #C2C2C2;
+    }
+    .text0{
+      text-align: center;
+    }
+    .infoItem{
+      font-size: 26px;
+      color: #666;
+      line-height: 44px;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .infoItem.payAmount{
+      margin-top: 20px;
+      .price{
+        color: #00A4FF;
+      }
+    }
+    .confirm-btn{
+      width: 240px;
+      height: 70px;
+      line-height: 70px;
+      font-size: 32px;
+      text-align: center;
+      background-color: #00A4FF;
+      color: #FFF;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  }
+}

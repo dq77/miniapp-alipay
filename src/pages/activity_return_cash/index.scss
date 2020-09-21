@@ -1,0 +1,70 @@
+@import "../../styles/mixin";
+
+.activity_return_cash-page {
+  width: 100%;
+  font-family: PingFangSC-Medium;
+  background: url(../../images/return_cash/backgroundImg.png) no-repeat;
+  .scrollview {
+    height: 100vh;
+  }
+  .line-container {
+    // width: 100%;
+    padding: 0 32px;
+    // margin: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .line-container-line {
+      height: 1Px;
+      width: 228px;
+      background-color: #fff;
+    }
+    .line-title {
+      display: block;
+      width: 192px;
+      height: 40px;
+      font-size: 48px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      line-height: 40px;
+    }
+  }
+  .return-result {
+    overflow: hidden;
+    padding-top: 100px;
+    .return-result-container {
+      margin-left: 50px;
+      width: 726px;
+      height: 718.2px;
+      background: url(../../images/return_cash/gift.png) no-repeat;
+      background-size: 100% 100%;
+      overflow: hidden;
+      .return-result-text {
+        display: flex;
+        flex-direction: column;
+        margin: 100px 0 0 170px;
+        .text-title {
+          font-family: PingFangSC-Medium;
+          font-size: 60px;
+          color: #333333;
+          letter-spacing: 0;
+        }
+        .text-content {
+          font-family: FFDINPro-Medium;
+          font-size: 44px;
+          color: #F82635;
+          letter-spacing: 0;
+        }
+      }
+    }
+  }
+  .goods-list {
+    padding: 62px 32px;
+  }
+  .over-tip {
+    color: #666666;
+    font-size: 14Px;
+    text-align: center;
+    line-height: 100vh;
+  }
+}

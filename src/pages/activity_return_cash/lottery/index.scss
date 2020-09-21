@@ -1,0 +1,173 @@
+
+.lottery-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.gold-coin {
+  width: 100%;
+  height: 100%;
+}
+.lucky-img {
+  display: block;
+  width: 636px;
+  height: 196px;
+  margin-top: 66px;
+}
+.lucky-text {
+  width: 434px;
+  height: 64px;
+  border: 1Px solid #AF4C40;
+  font-family: PingFangSC-Medium;
+  font-size: 32px;
+  letter-spacing: 0;
+  border-radius: 32px;
+  color: #AF4C40;
+  text-align:center;
+  line-height: 64px;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+.wheel-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 66px;
+  width: 696px;
+  height: 696px;
+  position: relative;
+}
+.wheel-bg {
+  width: 696px;
+  height: 696px;
+  background-image: url('../../../images/return_cash/turnWheel.png');
+  background-size: 100%;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  transition: transform 3s ease;
+}
+ .wheel-pointer-box {
+  position: absolute;
+  top: 38%;
+  left: 39%;
+  z-index: 100;
+  /* transform: translate(-50%, -60%); */
+  width: 160px;
+  height: 160px;
+  .start {
+    display: flex;
+    justify-content: center;
+    font-family: PingFangSC-Semibold;
+    font-size: 32px;
+    color: #5F0F03;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  .wheel-pointer {
+    width: 160px;
+    height: 160px;
+    background: url('../../../images/return_cash/clickBtn.png') no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    // animation: myfirst 4s ease-in-out;
+    // animation-fill-mode: forwards;
+    /* transform-origin: center center; */
+    /* transition: transform 3s ease; */
+    /* align-items: center; */
+    .point-img {
+      width: 56px;
+      height: 64px;
+      position: absolute;
+      top: -45px;
+      left: 32%;
+    }
+  }
+}
+ .wheel-bg div {
+  text-align: center;
+}
+
+.prize-list {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.prize-item {
+  width: 270px;
+  height: 340px;
+  transform-origin: center bottom;
+}
+.prize-list .prize-item {
+  position: absolute;
+  top: 0;
+  left: 31%;
+  z-index: 2;
+}
+.prize-list .prize-item:first-child {
+  top: 0;
+  // left: 32%;
+}
+.prize-list .prize-item:nth-child(2) {
+  transform: rotate(60deg);
+}
+.prize-list .prize-item:nth-child(3) {
+  transform: rotate(120deg);
+}
+.prize-list .prize-item:nth-child(4) {
+  transform: rotate(180deg);
+}
+.prize-list .prize-item:nth-child(5) {
+  transform: rotate(240deg);
+}
+.prize-list .prize-item:nth-child(6) {
+  transform: rotate(-60deg);
+}
+.prize-pic img {
+  width: 4.0625rem;
+  height: 2.5rem;
+  margin-top: 1.5625rem;
+}
+.prize-count {
+  font-family: FFDINPro-Medium;
+  font-size: 56px;
+  color: #333333;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 60px;
+}
+.prize-type {
+  font-family: PingFangSC-Medium;
+  font-size: 24px;
+  color: #333333;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24px;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+.gold-cion {
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  top: 28px;
+  left: 0;
+}
+@keyframes myfirst {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(1200deg)
+  }
+}

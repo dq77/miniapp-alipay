@@ -1,0 +1,130 @@
+.GoodsInfo {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14PX;
+
+  .goodsContent {
+    display: flex;
+
+    .imgWrap {
+      width: 140px;
+      height: 140px;
+      margin-right: 17px;
+      position: relative;
+
+      .leasePopover {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: rgba($color: #00a4ff, $alpha: 0.8);
+        color: #FFF;
+        font-size: 24px;
+        line-height: 24px;
+        padding: 4px 0;
+      }
+
+      .imgStyle {
+        width: 140px;
+        height: 140px;
+      }
+    }
+
+    .goods {
+      width: 77%;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+
+      .good_name {
+        margin-bottom: 30px;
+        color: #333;
+        display: flex;
+        justify-content: space-between;
+
+        .name_text {
+          overflow: hidden;
+          width: 80%;
+          text-overflow: ellipsis;
+        }
+      }
+
+      .good_detail {
+        margin-bottom: 30px;
+      }
+
+      .good_detail,
+      .good_price {
+        font-size: 12Px;
+        color: #999;
+      }
+
+      .counts {
+        color: #666;
+        float: right;
+      }
+    }
+  }
+
+  .pdBottom {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #EBEBEB;
+    ;
+  }
+
+  .leaseModel {
+    font-size: 24px;
+
+    .leaseAccordion {
+      font-size: 28px;
+
+      .tar {
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 24px;
+      }
+
+      .leaseAccordionList {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .GoodsLease {
+    position: relative;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+
+    .btn {
+      width: 100%;
+      text-align: right;
+      line-height: 30px;
+      display: flex;
+      justify-content: flex-end;
+
+      .at-button {
+        margin: 0 10px;
+      }
+    }
+
+    .lease_brief {
+      margin-left: 34px;
+      font-size: 12Px;
+      color: #999;
+    }
+
+    .lease_time {
+      position: absolute;
+      right: 0;
+      color: #666;
+    }
+
+    .vgn {
+      // position: absolute;right: 0;
+    }
+  }
+}

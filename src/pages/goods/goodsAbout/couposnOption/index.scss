@@ -1,0 +1,115 @@
+.couponsInfo {
+  .common-coupon {
+    width: 343*2px;
+    min-height: 180px;
+    margin: 0 auto 4%;
+    // background: #ccecff;
+    box-shadow: #DDD 0 0 20px;
+    border-radius: 5px;
+
+    .at-row {}
+
+    .discount-price {
+      margin: 35px 0 0 40px;
+
+      .money {
+        line-height: 36px;
+        font-size: 56px;
+      }
+    }
+    .at-col-9{
+      // background-image: url('../../../../images/fixedReturn/white.png');
+      // background-size: 100% 100%;
+    }
+    .at-col-9 text {
+      font-family: PingFangSC-Medium;
+      color: #00A4FF;
+      letter-spacing: 0;
+    }
+
+    .at-col-9 .discount-time text{
+      color: #999;
+      font-size: 11Px;
+    }
+    .symbol-money {
+      font-size: 26px;
+    }
+
+    .discount-type {
+      line-height: 26px;
+      display: block;
+      margin: 6px 0 10px 40px;
+      font-size: 26px;
+    }
+
+    .discount-time {
+      margin: 15px 0px 34px 40px;
+      line-height: 12Px;
+      font-size: 12Px;
+    }
+
+    .discount-time text {
+      font-size: 12Px;
+      white-space: nowrap;
+    }
+    .at-col-3 {
+      height: 1.8rem;
+      background-color: #00A4FF;
+      // background-image: url('../../../../images/fixedReturn/blue.png');
+      // background-size: 100% 100%;
+
+      .at-button--small {
+        width: 100%;
+        border-radius: 2px;
+        height: 1.8rem;
+        font-family: PingFangSC-Regular;
+        font-size: 14Px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 1.8rem;
+        // border: none;
+        // background: none;
+      }
+    }
+
+    .taro-img {
+      border-radius: 50%;
+      width: 140px;
+      height: 140px;
+      float: right;
+      margin-right: 15px;
+    }
+    .use-coupon.repay {
+      background: linear-gradient(to top right, #E822A0 , #3844A8);
+      color: white;
+      border: none;
+      line-height: 0.34rem;
+      font-size: 12Px;
+      .at-button__text{
+        display: flex;
+        height: 100%;
+        justify-content: center;
+      }
+      .repayInnerText{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+  }
+
+  // 已使用
+  .used {
+
+    .at-col-3 {
+      background-color: #E5E5E5;
+      .at-button--small{
+        background-color: #E5E5E5;
+        border: none;
+      }
+    }
+  }
+
+}

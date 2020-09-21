@@ -1,0 +1,40 @@
+.redPage {
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 0;
+  position: relative;
+
+  .goodwrap {
+    position: absolute;
+    top: 41%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 10%;
+
+    .goods_card {
+      width: 292px;
+      height: 403px;
+      margin-bottom: 10px;
+      // background: red;
+    }
+  }
+
+  .red_price {
+    position: absolute;
+    top: 0;
+    font-family: 'Boahmed AlHarf Bold';
+    width: 60px;
+    height: 60Px;
+    font-weight: 500;
+    font-size: 50PX;
+    z-index: 1080;
+    right: 67%;
+    display: flex;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 21%;
+    color: #e35443;
+  }
+}

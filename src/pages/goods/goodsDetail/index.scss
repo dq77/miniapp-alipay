@@ -1,0 +1,26 @@
+.goods-detail {
+  .detail-content {
+    min-height: 200px;
+    padding: 0 8px 70px;
+    display: flex;
+    flex-direction: column;
+
+    .taro-img {
+      height: auto;
+    }
+  }
+
+  .at-tabs__item-underline {
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  .titleFixed {
+    .at-tabs__header {
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 1000;
+    }
+  }
+}

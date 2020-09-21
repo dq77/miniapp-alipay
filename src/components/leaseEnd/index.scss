@@ -1,0 +1,40 @@
+.leaseEndPage{
+
+  .leaseAccordion{
+      background-color: #FFF;
+      padding: 20px 0 0;
+      font-size: inherit;
+      margin-bottom: -6px;
+      .leaseAccordionTitle{
+        display: flex;
+        justify-content: space-between;
+        .wayTip{
+          color: #999;
+          text-align: right;
+        }
+      }
+      .wayTipArrow{
+        color: #CCC;
+      }
+    .leaseAccordionList{
+      color: #999;
+      .item{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 18px;
+        .couponInfo{
+          width: 36px;
+          height: 36px;
+          margin: 2px 14px 0 0;
+        }
+        .vgn {
+          vertical-align: baseline;
+          margin-left: 10px
+        }
+      }
+    }
+  }
+  .at-card__header{
+    text-align: center;
+  }
+}

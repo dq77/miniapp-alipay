@@ -1,0 +1,68 @@
+@import '../../styles/mixin.scss';
+
+.comp-popup {
+  position: fixed;
+  width: 100%;
+  height: 0;
+  top: 0;
+  bottom: 0;
+  // transition: 0.5s;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  // NOTE RN 没有 display: none，暂时用 height 实现同等效果
+  &--visible {
+    height: 100%;
+    // transition: 0.5s;
+    // transform: translateX(50pX);
+    // animation: fadeInUp .5s
+  }
+}
+
+.comp-popup__mask {
+  flex: 1;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.comp-popup__wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #ffffff;
+}
+
+.comp-popup__content {}
+
+.comp-popup__close {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+
+  .comp-popup__close-img {
+    width: 24px;
+    height: 24px;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}

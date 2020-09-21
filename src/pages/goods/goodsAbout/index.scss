@@ -1,0 +1,150 @@
+.goods-about {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 20px;
+  min-height: 100Px;
+
+  &-item {
+    // height: 86px;
+    line-height: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1Px #E7E7E7;
+
+    .item-title {
+      color: #999;
+      font-size: 12Px;
+      margin-right: 16px;
+    }
+
+    .item-value {
+      display: inline-block;
+      width: 600px;
+      color: #333;
+      font-size: 12Px;
+      text-align: left;
+    }
+
+    .item-block {
+      width: 16Px;
+      height: 16Px;
+    }
+
+    .at-icon {
+      color: #ccc;
+    }
+
+    .at-icon-chevron-right {
+      margin-top: 0;
+    }
+  }
+
+  .coupon {
+    justify-content: flex-start;
+
+    .couponCenter {
+      flex: 1 1 auto;
+
+      .couponItem {
+        line-height: 16Px;
+        margin: 0.2rem 0;
+
+        .couponLabel {
+          display: inline-block;
+          color: #fff;
+          font-size: 12Px;
+          border: 1Px solid #00A4FF;
+          color: #00A4FF;
+          padding: 1Px 4Px;
+          border-radius: 4Px;
+          margin: 0 8px 0 8px;
+          text-align: left;
+        }
+
+        .discount-type {
+          font-size: 24px;
+          margin-left: 8px;
+        }
+      }
+    }
+
+    .item-value {}
+
+    .at-icon {}
+  }
+
+  .couponTitle {
+    padding-bottom: 2%;
+  }
+
+  .repay {
+    .rightIcon {
+      text-align: right;
+    }
+
+    .couponInfo {
+      width: 28px;
+      height: 28px;
+      margin: 2px 14px 0 0;
+    }
+  }
+  .freight-content{
+    padding-left: 18px;
+    padding-bottom: 18px;
+  }
+  // 没有优惠券
+  .no-coupon {
+    margin: 57*2px 127*2px;
+
+    .taro-img {
+      width: 240px;
+      height: 240px;
+    }
+
+    span {
+      display: block;
+      width: 100%;
+      text-align: center;
+      font-family: PingFangSC-Regular;
+      font-size: 28px;
+      color: #666666;
+      line-height: 28px;
+    }
+  }
+
+  .repayModal {
+    text-align: center;
+
+    .infoTitle {
+      font-size: 0.34rem;
+      margin-bottom: 0.34rem;
+    }
+
+    .infoItem {
+      color: #666;
+      text-align: left;
+      display: flex;
+      margin-bottom: 0.2rem;
+
+      .itemNumber {
+        width: 6%;
+      }
+
+      .itemCont {
+        width: 94%;
+      }
+    }
+
+    .repayInfoBtn {
+      background-color: #00A4FF;
+      color: #FFF;
+      height: 70px;
+      line-height: 70px;
+      border-radius: 40px;
+      width: 56%;
+      margin: 0.6rem auto 0.1rem;
+      font-size: 0.30rem;
+    }
+  }
+}
