@@ -61,7 +61,7 @@ class Index extends Component {
     }
   }
   config = {
-    navigationBarTitleText: getChannel() === 'JDBT' ? '淘租公-京东小白' : '淘租公-租出新生活',
+    navigationBarTitleText: getChannel() === 'JDBT' ? '小公公-京东小白' : '小公公-新生活',
     enablePullDownRefresh: true
   }
 
