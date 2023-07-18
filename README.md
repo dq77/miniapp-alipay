@@ -13,10 +13,10 @@ React + Taro + Dva + Sass + ES6/ES7
 
 ```
 
-git clone git@git.taozugong.cn:taozugong-front-end/taro-taozugong.git
+git clone git@git.xiaogonggong.cn:xiaogonggong-front-end/taro-xiaogonggong.git
 
 
-cd taro-taozugong
+cd taro-xiaogonggong
 
 # 全局安装taro脚手架
 npm install -g @tarojs/cli@1.2.15
