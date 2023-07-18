@@ -62,7 +62,7 @@ class App extends Component {
     ],
     window: {
       backgroundTextStyle: "dark",
-      navigationBarTitleText: "淘租公租赁平台",
+      navigationBarTitleText: "小公公梅机鸡平台",
       navigationBarTextStyle: "black",
       navigationBarBackgroundColor: "#ffffff",
       backgroundColor: "#eeeeee",
